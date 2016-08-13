@@ -5,7 +5,7 @@ lastValue = 1
 while True:
     print("lastValue " + str(lastValue))
     newLasValue = base + lastValue
-    if newLasValue > limitNumber:
+    if newLasValue >= limitNumber:
         break
     else:
         base = lastValue
